@@ -1,0 +1,56 @@
+/* @font-face {
+  font-family: "regular";
+  src: url("font/bebas-regular.ttf") format("truetype");
+} */
+
+* {
+  background-color: #003044;
+  color: white;
+}
+
+.logo2 {
+  float: center;
+  height: 10vh;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.sign-in {
+  font-size: 3vw;
+  font-style: normal;
+}
+.link {
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.link:hover {
+  opacity: 0.8;
+  color: rgb(129, 223, 129);
+}
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: #1a4556;
+}
+
+svg {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 1;
+  z-index: -9999;
+}
+
+@media screen and (max-width: 768px) {
+  .sign-in {
+    font-size: 8vw;
+  }
+  .logo {
+    font-size: 3.5vw;
+  }
+}

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "poppins";
+  src: url("font/poppins.woff") format(".woff");
+}
+* {
+  font-family: "poppins";
+}
+
+.tr-style {
+  background: #c1edff;
+  border-radius: 50%;
+}
+table {
+  border-collapse: collapse;
+}
+
+table tr td {
+  padding: 10px 50px 10px 5px;
+}
+
+table th:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+table tr:nth-child(2n + 1):nth-child(n + 3) {
+  background: #f3f1f1;
+}
+table tr:nth-child(2n + 2):nth-child(n + 4) {
+  background: #fff;
+}
+
+/*Point*/
