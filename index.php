@@ -193,7 +193,11 @@ LIMIT $awaldata1, $jumlahdatapage1 ");
                         </div>
 
                         <hr class="mt-1 mb-1 p-0">
-                        <h5 class="content-desc text-white">Download buku panduan untuk mengetahui tata cara meminjam barang & ruangan di Universitas <span class="text-danger fw-bold">Teknokrat</span> Indonesia</h5>
+                        <h5 class="content-desc text-white">Download buku panduan untuk mengetahui tata cara meminjam barang & ruangan di Universitas <span class="text-danger fw-bold">Teknokrat</span> Indonesia
+                            <a href="pdf/Peminjaman UTI.pdf" target="_blank" class="text-warning" style="text-decoration: none;">
+                                --> Download Panduan
+                            </a>
+                        </h5>
 
                     </div>
 

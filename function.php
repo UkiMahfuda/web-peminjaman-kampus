@@ -104,7 +104,7 @@ function tambahdata($tambahdata)
     $alasan =  htmlspecialchars($tambahdata["alasan"]);
 
     $insert = "INSERT INTO tbl_peminjaman VALUES 
-('','$id_ruangan','$id_brg','$no_tlp','$lama_pinjam','$alasan','$date','$nama','$npm','$prodi')";
+('','$id_ruangan','$id_brg','$no_tlp','$lama_pinjam','$alasan','$date','$nama','$npm','$prodi','')";
 
     mysqli_query($conn, $insert);
     return mysqli_affected_rows($conn);

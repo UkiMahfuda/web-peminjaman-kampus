@@ -8,8 +8,8 @@ if (!isset($_SESSION['btnlogin'])) {
 }
 $namaini = $_SESSION['nama'];
 
-$update = ambildata("SELECT *FROM  tbl_user WHERE nama = '$namaini'");
-$query = ambildata("SELECT * FROM tbl_peminjaman");
+// $update = ambildata("SELECT *FROM  tbl_user WHERE nama = '$namaini'");
+$query = ambildata("SELECT * FROM tbl_peminjaman ORDER BY id DESC");
 ?>
 
 
@@ -160,7 +160,7 @@ $query = ambildata("SELECT * FROM tbl_peminjaman");
                         <div class="document-card">
                             <div class="d-flex justify-content-between flex-wrap ">
                                 <div>
-                                    <h2 class="content-title">Daftar History Peminjamam</h2>
+                                    <h2 class="content-title">Daftar History Peminjaman</h2>
                                     <h5 class="content-desc mb-4">Universitas Teknokrat Indonesia</h5>
                                 </div>
 
@@ -225,7 +225,7 @@ $query = ambildata("SELECT * FROM tbl_peminjaman");
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a target="_blank" href="print.php?id=<?php echo $row['id'] ?>">
                                                         <button class="btn btn-primary">
                                                             Unduh
                                                         </button>
