@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost:3307", "root", "", "db_ta_web");
+$conn = mysqli_connect("localhost", "id20835467_webpeminjamankampus", "?FUG?c95?/\k[%a$", "id20835467_db_ta_web");
 
 // if (!$conn) {
 //     die("Koneksi Gagal");

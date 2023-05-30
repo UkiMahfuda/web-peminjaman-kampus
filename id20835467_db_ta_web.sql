@@ -1,6 +1,6 @@
 /*
 SQLyog Enterprise v13.1.1 (64 bit)
-MySQL - 10.4.27-MariaDB : Database - db_ta_web
+MySQL - 10.4.27-MariaDB : Database - id20835467_db_ta_web
 *********************************************************************
 */
 
@@ -12,9 +12,9 @@ MySQL - 10.4.27-MariaDB : Database - db_ta_web
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`db_ta_web` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`id20835467_db_ta_web` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci */;
 
-USE `db_ta_web`;
+USE `id20835467_db_ta_web`;
 
 /*Table structure for table `tbl_brg` */
 
@@ -67,14 +67,14 @@ CREATE TABLE `tbl_peminjaman` (
   KEY `id_ruangan` (`id_ruangan`),
   CONSTRAINT `tbl_peminjaman_ibfk_2` FOREIGN KEY (`id_brg`) REFERENCES `tbl_brg` (`id_brg`),
   CONSTRAINT `tbl_peminjaman_ibfk_3` FOREIGN KEY (`id_ruangan`) REFERENCES `tbl_ruangan` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 /*Data for the table `tbl_peminjaman` */
 
 insert  into `tbl_peminjaman`(`id`,`id_ruangan`,`id_brg`,`no_tlp`,`lama_pinjam`,`alasan`,`date`,`nama`,`npm`,`prodi`,`time`) values 
-(12,1,3,'089152716121','Aula','Kegiatan Mengajar\r\n','2023-06-01','Akhfee Lauki Mahfuda','21312109','Informatika',NULL),
 (14,3,3,'08918276912','2 Hari','Kegiatan Hima','2023-06-10','Raldho Alyanrus','21312115','Sastra Inggris','0000-00-00 00:00:00'),
-(15,2,5,'089268263822','3 Hari','Kegiatan Kampus\r\n','2023-06-02','Raldho Alyanrus','21312115','Informatika','0000-00-00 00:00:00');
+(15,2,5,'089268263822','3 Hari','Kegiatan Kampus\r\n','2023-06-02','Raldho Alyanrus','21312115','Informatika','0000-00-00 00:00:00'),
+(16,9,5,'089570638212','2 Hari','Kegiatan Bem FTIK','2023-06-02','Akhfee Lauki Mahfuda','21312109','Informatika','0000-00-00 00:00:00');
 
 /*Table structure for table `tbl_ruangan` */
 
