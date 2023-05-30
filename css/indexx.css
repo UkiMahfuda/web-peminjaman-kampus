@@ -31,3 +31,9 @@ table tr:nth-child(2n + 2):nth-child(n + 4) {
 }
 
 /*Point*/
+
+/* @media only screen and (max-width: 600px) {
+  .tbl-scroll {
+    border: 5px solid black;
+  }
+} */

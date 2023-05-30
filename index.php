@@ -237,7 +237,7 @@ LIMIT $awaldata1, $jumlahdatapage1 ");
                                         </div>
                                     </div>
 
-                                    <div id="tblbrg">
+                                    <div id="tblbrg" class="tbl-scroll">
 
                                         <table cellspacing="0" class="statistics-card">
                                             <tr class="tr-style">
@@ -322,7 +322,7 @@ LIMIT $awaldata1, $jumlahdatapage1 ");
 
                                     </div>
 
-                                    <div id="tblruang">
+                                    <div id="tblruang" class="tbl-scroll">
 
                                         <table cellspacing="0" class="statistics-card overflow">
                                             <tr class="tr-style">

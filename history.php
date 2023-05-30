@@ -169,7 +169,7 @@ $query = ambildata("SELECT * FROM tbl_peminjaman ORDER BY id DESC");
                                 </div>
                             </div>
 
-                            <div class="">
+                            <div class="tbl-scroll">
 
                                 <table cellspacing="0" class="statistics-card">
                                     <tr class="tr-style">

@@ -484,10 +484,14 @@ aside #toggle-navbar {
   .content-desc {
     font-size: 12px;
   }
-  .overflow {
-    max-width: 300px;
+
+  .tbl-scroll {
+    max-width: 100%;
     overflow-x: scroll;
   }
+
+  /* .tbl-scroll table {
+  } */
 }
 
 @media (min-width: 1200px) {
