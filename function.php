@@ -39,7 +39,7 @@ function signup_acc($datauser)
 
     //Masukkan Data User Ke Db
     mysqli_query($conn, "INSERT INTO tbl_user VALUES 
-('','$username','$password','$npm')");
+('','$username','$password','$npm','','','')");
 
     return mysqli_affected_rows($conn);
 }
