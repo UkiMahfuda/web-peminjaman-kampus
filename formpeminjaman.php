@@ -168,7 +168,7 @@ if (isset($_POST["submitpnjm"])) {
 
                         <hr class="mt-1 mb-1 p-0">
                         <h5 class="content-desc text-white">
-                            User wajib mengisi semua form data di bawah jika ingin meminjam Barang atau Ruangan di Universitas <span class="text-danger fw-bold">Teknokrat</span> Indonesia
+                            Mahasiswa wajib mengisi semua form data di bawah jika ingin meminjam Barang atau Ruangan di Universitas <span class="text-danger fw-bold">Teknokrat</span> Indonesia
                         </h5>
 
                     </div>

@@ -19,6 +19,7 @@ $html = '
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laporan Peminjaman</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="website icon" href="img/UNIVERSITAS TEKNOKRAT.png">
 </head>
 
 <body>
@@ -42,7 +43,7 @@ $html = '
         <hr>
 
         <center>
-        <table cellpadding="5" border="1">
+        <table cellpadding="5">
             <tr>
                 <td>
                     No Registrasi
@@ -100,7 +101,7 @@ $html .= '
 ';
 foreach ($query as $row) {
     $html .= '
-<td>: ' . $row["id_ruangan"] . '</td>  </tr>';
+<td>: R-' . $row["id_ruangan"] . '</td>  </tr>';
 }
 $html .= '
 <tr>
@@ -110,7 +111,7 @@ $html .= '
 ';
 foreach ($query as $row) {
     $html .= '
-<td>: ' . $row["id_brg"] . '</td>  </tr>';
+<td>: B-' . $row["id_brg"] . '</td>  </tr>';
 }
 $html .= '
 <tr>
