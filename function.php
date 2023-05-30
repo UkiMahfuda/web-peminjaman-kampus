@@ -1,5 +1,6 @@
 <?php
-$conn = mysqli_connect("localhost", "id20835467_webpeminjamankampus", "?FUG?c95?/\k[%a$", "id20835467_db_ta_web");
+// $conn = mysqli_connect("localhost", "id20835770_webpeminjamanuti", "3u%+OQdsI0y70**(", "id20835770_db_ta_web");
+$conn = mysqli_connect("localhost:3307", "root", "", "db_ta_web");
 
 // if (!$conn) {
 //     die("Koneksi Gagal");
@@ -124,12 +125,14 @@ function updatedata($ubahdata)
     $no_tlp =  htmlspecialchars($ubahdata["no_tlp"]);
 
     $updatedata = "UPDATE tbl_user SET 
-    nama ='$nama','',
+   nama ='$nama',
     npm = '$npm',
     prodi = '$prodi',
     no_tlp ='$no_tlp',
     alamat='$alamat'
-    Where nama= $namaini";
+    WHERE nama= '$namaini'";
+
+
 
     mysqli_query($conn, $updatedata);
     return mysqli_affected_rows($conn);

@@ -11,7 +11,7 @@ if (!isset($_SESSION['btnlogin'])) {
 
 if (isset($_POST["submitpnjm"])) {
 
-    if (tambahdata($_POST) > 0) {
+    if (tambahdata($_POST) >= 0) {
         // echo "Data Berhasil Disimpan";
         echo "
         <script>

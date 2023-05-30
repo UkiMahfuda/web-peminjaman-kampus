@@ -14,7 +14,7 @@ if (isset($_POST["submitupdate"])) {
         echo "
         <script>
         alert('Data Berhasil Diubah');
-        document.location.href='pengaturan.php';
+        document.location.href='Pengaturan.php';
         </script>
         ";
     } else {
@@ -22,7 +22,7 @@ if (isset($_POST["submitupdate"])) {
         echo "
         <script>
         alert('Data Gagal Diubah');
-        document.location.href='pengaturan.php';
+        document.location.href='Pengaturan.php';
         </script>
         ";
     }
